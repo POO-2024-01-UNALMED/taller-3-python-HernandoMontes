@@ -1,18 +1,19 @@
 class Control:
     def enlazar(self, tv) -> None:
-        self.__tv = tv
+        self.__tv=tv
         tv.setControl(self)
 
     def setTv(self, tv) -> None:
         self.enlazar(tv)
     def getTv(self):
         return self.__tv
-
+    
+    
     def turnOn(self) -> None:
         self.__tv.turnOn()
     def turnOff(self) -> None:
         self.__tv.turnOff()
-
+    
     def canalUp(self) -> None:
         self.__tv.canalUp()
     def canalDown(self) -> None:
