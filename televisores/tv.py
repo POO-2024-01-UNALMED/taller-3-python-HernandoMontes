@@ -1,5 +1,5 @@
 class TV:
-    #propiedades iniciales de cada televisor
+    
     numTV=0
 
     def __init__(self, marca, estado) -> None:
